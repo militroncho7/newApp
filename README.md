@@ -1,3 +1,8 @@
+- Chapter 2: Declaración de useState en componentes funcionales. Versión 16.8 Los componenetes funcionales no podían almacenar estado interno. 
+- Chapter 3: ProTypes, Styled Components & Hoook useEffect.
+realizar una serie de comprobaciones acerca del tipo de las propiedades que se van pasando a los componentes. Permite identificar propiedades de un componente a otro.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
