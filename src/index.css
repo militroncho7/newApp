@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: aliceblue;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 code {

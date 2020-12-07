@@ -1,7 +1,10 @@
 - Chapter 1: Introducción.Aplicación que consulta una API externa y crearemos una web donde ver las cifras del covid-19.
 - Chapter 2: Declaración de useState en componentes funcionales. Versión 16.8 Los componenetes funcionales no podían almacenar estado interno. 
-- Chapter 3: ProTypes, Styled Components & Hoook useEffect.
+- Chapter 3: ProTypes, Styled Components & Hoook useEffect y useState.
 realizar una serie de comprobaciones acerca del tipo de las propiedades que se van pasando a los componentes. Permite identificar propiedades de un componente a otro.
+- Chapter 4: Librería React Router para meter enrutado en la app.
+    Ruta 1: Home, donde se muestran los datos globales Covid-19
+    Ruta 2: Resultados en España.
 
 
 # Getting Started with Create React App

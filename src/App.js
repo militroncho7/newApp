@@ -1,39 +1,35 @@
-import React, {useEffect, useState} from "react";
-import DataList from "./DataList";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Home from "./Home";
+import Spain from "./Spain";
 import './App.css';
 
-const App = function() {
-  const [loading, setLoading] = useState(true);
-  const [confirmed, setConfirmed] = useState(0);
-  const [deaths, setDeaths] = useState(0);
-  const [recovered, setRecovered] = useState(0);
+export default function App() {
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch("https://enrichman.github.io/covid19/world/full.json");
-        const data = await response.json();
-        setLoading(false);
-        setDeaths(data.deaths);
-        setConfirmed(data.confirmed);
-        setRecovered(data.recovered);
-      } catch (e) {
-        console.log(e);
-      }
-    }
-    fetchData();
-    
-  }, [])
-
-  if (loading){
-    return (<div>Cargando los datos de hoy...</div>);
-  }
   return(
-      <DataList
-        confirmed={confirmed}
-        deaths={deaths}
-        recovered={recovered}/>
-  );
-}
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="spain">España</Link>
+            </li>
+          </ul>
+        </nav>
 
-export default App;
+        <Switch>
+          <Route path="/spain">
+            <Spain />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+
+    </Router>
+  );
+};
