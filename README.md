@@ -5,6 +5,9 @@ realizar una serie de comprobaciones acerca del tipo de las propiedades que se v
 - Chapter 4: Librería React Router para meter enrutado en la app.
     Ruta 1: Home, donde se muestran los datos globales Covid-19
     Ruta 2: Resultados en España.
+- Chapter 5: API Context & Dark-Light Theme: Nos permite declarar una serie de valores a los cuales lso componentes hijos pueden acceder sin la necesidad de recibir como props. el mejor el ejemplo es el cambio de tema.
+    Creamos un CONTEXTO.
+
 
 
 # Getting Started with Create React App
