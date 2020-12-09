@@ -1,6 +1,6 @@
 import React from "react";
-import useFetch from "./hooks/useFetch";
-import DataList from "./DataList";
+import useFetch from "hooks/useFetch";
+import DataList from "components/UI/DataList";
 
 
 const Home = function() {
