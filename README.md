@@ -19,6 +19,12 @@ realizar una serie de comprobaciones acerca del tipo de las propiedades que se v
     Los valores del formulario lo vamos a ir almacenando en el estado.
 - Chapter 8: Input File & hook useReducer.
     Gestión de Archivos & Refactorizar el código del formulario.
+    useReducer: Redux en pequeño dentro de React. Permite almacenar un estado global de nuestro componente. En vez de tener un useState para cada input creamos como un estado global y modificarlo a través de una función reducer. Modifica el estado inicial/actual a través de una acción
+    Investigar en qué consiste Redux y cómo funciona.
+
+    REPASAR CAPÍTULO 8
+    
+- Chapter 9: Dudas.
 
 
 
