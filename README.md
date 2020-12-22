@@ -1,3 +1,5 @@
+# App Covid-19
+
 - Chapter 1: Introducción.Aplicación que consulta una API externa y crearemos una web donde ver las cifras del covid-19.
 - Chapter 2: Declaración de useState en componentes funcionales. Versión 16.8 Los componenetes funcionales no podían almacenar estado interno. 
 - Chapter 3: ProTypes, Styled Components & Hoook useEffect y useState.
@@ -13,6 +15,10 @@ realizar una serie de comprobaciones acerca del tipo de las propiedades que se v
     Lazy envuelve las rutas en funciones (Home y Spain).
     Suspense: Comprueba si algún componente se está cargando de forma lazy. Si es así comprueba si están renderizados y si no lo están hace una llamada asíncrona para cargar los componentes.
 - Chapter 7: Formularios.
+    En React tenemos dos formas de trabajar con formularios de contacto. Los componetes controlados y los no controlados. Los primeros delegan en el propio coponente la gestión del estado del formulario sin almacenar los valores en el DOM. Este método es el más recomendado y el que utilizamos en la App.
+    Los valores del formulario lo vamos a ir almacenando en el estado.
+- Chapter 8: Input File & hook useReducer.
+    Gestión de Archivos & Refactorizar el código del formulario.
 
 
 
