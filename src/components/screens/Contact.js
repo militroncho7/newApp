@@ -56,7 +56,7 @@ const Contact = () => {
       </FormGroup>
       <FormGroup>
         <Label>Mensaje</Label>
-        <textarea name="message" value={state.message} onChange={handleChangeInput}/>
+        <textarea name="message" value={state.message} onChange={handleChangeInput} placeholder="Tu texto"/>
       </FormGroup>
       <FormGroup>
       <Label>Tu foto</Label>

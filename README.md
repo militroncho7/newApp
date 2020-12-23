@@ -25,6 +25,11 @@ realizar una serie de comprobaciones acerca del tipo de las propiedades que se v
     REPASAR CAPÍTULO 8
     
 - Chapter 9: Dudas.
+    Virtual DOM (REACT): tiene en DOM  virtual en memoria donde va iterando los cambios que vamos haciendo en nuestros componentes, una vez que procesa todos los cambios los traslada al DOM que se ve en nuestro navegador. Este proceso se llama consolidación. De esta forma tiene un perfomance bastante buena para ejuctar los cambios. No lo hace de una forma tan costosa. Por esto le exige un elemento raíz al componente. Se puede sustituir con los fragmentos <> </> React.Fragment
+    También se pueden devolver los componentes como un arra [div,div,etc..] pero esta forma no se utiliza.
+
+    · https://latteandcode.medium.com/y-eso-del-virtual-dom-de-react-qu%C3%A9-es-3feed6366925
+
 
 
 
