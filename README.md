@@ -53,3 +53,10 @@ realizar una serie de comprobaciones acerca del tipo de las propiedades que se v
     Manejo de validaciones en formularios.
 
 - Chapter 11: REDUX.
+
+    Es una alternativa a API context de React para almacenar el estado global de una app. Su principal ventaja es que tiene una manera muy limpia de modificar el estado e induce a buenas prácticas.
+    El primera paso es envolver nuestra app con un Provider (muy similar al Provider de la API Context). Su función es permitir el acceso global a ese estado del cual nos provee Redux desde nuestros componentes.
+    A este Provider que nos provee Redux hay que pasarle un objeto que sea store. Esto representa el sestado global de nuestra app.
+    store.js --> Aquí configuramos el estado global de la App. Necesitamos una función que nos provee también Redux createStore. Esta función lo que nos pide es que le pasamos una función que sea el reducer de nuestra App. Es como el hook useReducer pero a lo grande. Vamos a tener un estado global desde el cual vamos a poder acceder desde todos los componentes.
+
+    Leer documentación completa de Redux.
