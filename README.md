@@ -60,3 +60,16 @@ realizar una serie de comprobaciones acerca del tipo de las propiedades que se v
     store.js --> Aquí configuramos el estado global de la App. Necesitamos una función que nos provee también Redux createStore. Esta función lo que nos pide es que le pasamos una función que sea el reducer de nuestra App. Es como el hook useReducer pero a lo grande. Vamos a tener un estado global desde el cual vamos a poder acceder desde todos los componentes.
 
     Leer documentación completa de Redux.
+
+- Chapter 12: Extensión para Chrome y modo offline
+
+    También crearemos un custom hook para limpiar la forma en la que estamos recuperando nuestra información de la API y almacenarla en el local storage de nuestro navegador para poder acceder a ellas sin conexión.
+
+    Modificaremos el archivo manifest.json para que Google Chrome sea capaz de leerlo y pueda procesa nuestra nueva extensión.
+
+    Declaramos una browser_action: Es lo que va a permitir a Chrome tratarlo como si fuera una extensión.
+    En el diremos que el punto de entrada es index.html y el título de la App. También tenemos que indicar la versión de la app y la versión de manifest. Por último, como vamos a utilizar el local storage también lo indicamos.
+
+    En el navegador de Chrome vamos a extensiones: chrome//extensions. Habilitamos modo desarrollador y seleccionamos: cargar descomprimida.
+    
+    MINUTO 07:41
